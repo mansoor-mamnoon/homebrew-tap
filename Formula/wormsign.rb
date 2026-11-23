@@ -1,28 +1,28 @@
 class Wormsign < Formula
   desc "Check for supply-chain malware and persistence indicators"
   homepage "https://github.com/mansoor-mamnoon/wormsign"
-  version "0.1.5"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mansoor-mamnoon/wormsign/releases/download/v0.1.5/wormsign_darwin_arm64.tar.gz"
-      sha256 "2c363f7b229ffc7eef1d3b42a19f2b89cd072069e13dd14c6f8752dfa10bc9ed"
+      url "https://github.com/mansoor-mamnoon/wormsign/releases/download/v0.2.0/wormsign_darwin_arm64.tar.gz"
+      sha256 "f44a2f9d8879ea93daf2675c0496ad56d91a79fef341461c721c119bc2441f8d"
     end
     on_intel do
-      url "https://github.com/mansoor-mamnoon/wormsign/releases/download/v0.1.5/wormsign_darwin_amd64.tar.gz"
-      sha256 "a784eee8aafe72e0dc72caefb2e0a55d38ff1c001eefce237a5b5cec1a779481"
+      url "https://github.com/mansoor-mamnoon/wormsign/releases/download/v0.2.0/wormsign_darwin_amd64.tar.gz"
+      sha256 "be2a41ec038731edb0806c6e509a4ee2101f442f583aa01416077e4f8f1b74c7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mansoor-mamnoon/wormsign/releases/download/v0.1.5/wormsign_linux_arm64.tar.gz"
-      sha256 "265e121faa99f0efa169731eb159a5bfef3e604c3a8a1cd5caf57da7f1d052fd"
+      url "https://github.com/mansoor-mamnoon/wormsign/releases/download/v0.2.0/wormsign_linux_arm64.tar.gz"
+      sha256 "6c4ad6a718c995430db9941ef6f5c32767c850ee19febe7a6232650b53852384"
     end
     on_intel do
-      url "https://github.com/mansoor-mamnoon/wormsign/releases/download/v0.1.5/wormsign_linux_amd64.tar.gz"
-      sha256 "3982be5e5a1b8f84ef6d6a02c1c46678904ca0cfa24d889c50c0f60135ded9eb"
+      url "https://github.com/mansoor-mamnoon/wormsign/releases/download/v0.2.0/wormsign_linux_amd64.tar.gz"
+      sha256 "0ccdf3d85f24cf1ace2c5665d4566e0c502dcdee3b8616fb046a42696c2c766b"
     end
   end
 
